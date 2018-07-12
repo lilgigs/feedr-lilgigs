@@ -93,7 +93,7 @@ url: api_url,
 
   })
   .fail(function(xhr) {
-    alert('error', xhr);
+    console.log('error callback 1', xhr);
 	
   });
 
